@@ -31,7 +31,7 @@ public class JDBC4 {
                         con.prepareStatement(sql);
 
                 pstmt.setInt(1, i+5);
-                pstmt.setString(2, "노노");
+                pstmt.setString(2, "df");
                 pstmt.setString(3, "MG진");
                 pstmt.setInt(4, 42000);
                 pstmt.executeUpdate();
